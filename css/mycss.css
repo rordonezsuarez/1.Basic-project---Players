@@ -1,0 +1,94 @@
+body{
+  background-color:  	#F5F9FA;
+  font-family: 'Oswald', sans-serif;
+  padding: 2%;
+
+}
+h2{
+  -webkit-box-shadow: inset 2px 24px 7px 1px rgba(224,224,224,0.68);
+  -moz-box-shadow: inset 2px 24px 7px 1px rgba(224,224,224,0.68);
+  box-shadow: inset 2px 24px 7px 1px rgba(224,224,224,0.68);
+  background-color: #79D8FF;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+h3{
+  -webkit-box-shadow: inset 2px 24px 7px 1px rgba(224,224,224,0.68);
+  background-color: #79D8FF;
+  font-family: 'Ubuntu', sans-serif;
+
+
+}
+
+.imgu{
+      position: absolute;
+      width: 4%;
+      height: 11%;
+      left: 2,2%;
+      border: 1px solid #010101;
+
+}
+
+
+.infi{
+      position: relative;
+      width: 25%;
+      left: 17%;
+}
+
+.gridForm{
+ padding: 1%;
+ border: 1px solid #010101;
+
+
+}
+
+.refjug{
+  background-color: #EBF6FF;
+}
+
+
+.gridBEG{
+  border: 1px solid #010101;
+  width: 95%;
+  right: 50%;
+  padding: 2%;
+
+}
+
+
+.gridPRO{
+  border: 1px solid #010101;
+  width: 95%;
+  right: 50%;
+  padding: 2%;
+}
+
+
+.wrapper {
+    text-align: right;
+}
+
+.button {
+  display: inline-block;
+  padding: 6px 6px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #8CCAF5;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #EEF2F5;
+}
+.button:hover {background-color: #79D8FF}
+
+.button:active {
+  background-color: #F5F9FA;
+  box-shadow: 0 2px #F5F9FA;
+  transform: translateY(4px);
+}

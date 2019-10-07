@@ -1,0 +1,27 @@
+.grid{
+  display: grid;
+  grid-template-areas: "head head"
+                       "array array"
+                       "title title"
+                       "beg pro"
+}
+
+.gridTitle2{
+  grid-area: title;
+}
+
+.gridForm{
+  grid-area: array;
+}
+
+.gridBEG{
+  grid-area: beg;
+}
+
+.gridPRO{
+  grid-area: pro;
+}
+
+.gridTitle{
+  grid-area: head;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>MALLORCA PADEL</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- In this space i have my css because im cool and i need style on my web site-->
+<link rel="stylesheet" type="text/css" href="../css/mycss.css">
+<link rel="stylesheet" type="text/css" href="../css/grid.css">
+<!-- In this space i have my javascripts because i need extra funcionalities to make a modern web site -->
+<script type="text/javascript" src="../js/index.js"> </script>
+<script type="text/javascript" src="../js/validation.js"> </script>
+<script type="text/javascript" src="../js/util.js"> </script>
+<!-- Google fonts ready to use-->
+<link href="https://fonts.googleapis.com/css?family=Ewert&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+<!-- Font Aaaawwwwwwweeeeeesssssssooomeeeeeeee-->
+<script src="https://kit.fontawesome.com/15a2f804e4.js" crossorigin="anonymous"></script>
+<!-- This is the icon on the url bar, if you dont see this correctly i tell you this is a padel pad-->
+<link rel='icon' href='../img/favicon.ico' type='image/x-icon'/ >
+
+<body>
+  <p></p>
+  <h1><i class="fas fa-address-book"> REGISTRO DE JUGADORES </i></h1>
+<div class="grid">
+<!-- Grid title1 for making a atractive title-->
+<div class="gridTitle">
+  <h2>Nuevo jugador</h2>
+  <p>Datos personales</p>
+</div><br>
+<!-- Grid title2 for making a atractive title-->
+<div class="gridTitle2">
+  <h2>Lista de jugadores</h2>
+</div><br>
+
+<!-- FORM for insert data-->
+<div class="gridForm">
+    <form  name="myForm" class="" action="index.html" method="post" required>
+
+        <i class="far fa-id-card"></i>
+        <label>DNI </label>
+        <input type="text" id="dni" name="dni" values="">
+
+        <i class="fas fa-user-alt"></i>
+        <label>Nombre</label>
+        <input type="text" id="name" name="name" values="">
+
+        <i class="fas fa-user-alt"></i>
+        <label>Apellido </label>
+        <input type="text" id="surname" name="apellido" values="">
+
+
+        <i class="far fa-calendar-alt"></i>
+        <label>Fecha de nacimiento </label>
+        <input type="text" id="date" name="date" values=""><br>
+
+        <br>
+
+        <i class="fas fa-phone-square"></i>
+        <label>Telefono </label>
+        <input type="text" id="telephone" name="telephone" values="">
+
+        <i class="fas fa-at"></i>
+        <label>Email </label>
+        <input type="text" id="email" name="email" values="">
+
+        <i class="far fa-credit-card"></i>
+        <label>Numero cuenta corriente </label>
+        <input type="text" id="iban" name="iban" values="">
+
+        <i class="fas fa-table-tennis"></i>
+        <label>Tipo de jugador </label>
+          <select name="typeplayer" id="typeplayer" values="">
+            <option id="begginer" value="Begginer">Begginer</option>
+            <option id="professional" value="Professional">Professional</option>
+          </select>
+
+    </form>
+
+
+<!-- Button to summit data-->
+    <div class="wrapper">
+      <button type="button" id="boton" class="button" name="button" value="reset" onclick="checkform()">Insertar jugador</button>
+  </div>
+</div>
+
+
+<!-- Space where BEG players will stay-->
+<div class="gridBEG" id="gridBEG">
+</div>
+
+<!--Space where PRO players will stay-->
+<div class="gridPRO" id="gridPRO">
+<!-- END DIVS space, this its not important,maybe...-->
+</div>
+<div>
+</div>
+</div>
+<p><h3>&copy;Rafael Ordoñez Suarez 2019</h3></p>
+</body>
+</html>
